@@ -34,16 +34,17 @@ Chữ ký số là dạng chữ ký điện tử được mã hóa bằng **mậ
 - OpenSSL (dùng để tạo khóa RSA và chứng chỉ X.509)  
 - Thư viện `pyHanko` – hỗ trợ ký và xác minh PDF.  
 
-### 2. Cài đặt môi trường
-```powershell
-# Kích hoạt môi trường ảo
-& D:/BT2_Security/.venv/Scripts/Activate.ps1
+ 2. Cài đặt môi trường
 
-# Cài các thư viện cần thiết
+# Kích hoạt môi trường ảo
+D:/BT2_Security/.venv/Scripts/Activate.ps1
+ Cài các thư viện cần thiết
+
 pip install pyHanko pyHanko-certvalidator
 pip install cryptography reportlab Pillow
 
-Kết Quả 
+
+### Kết Quả 
 
 
 <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/0059a83f-283a-4028-94f4-522162c867b1" />
